@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output - NUNCA subir esto a Git
+bin/
+obj/
+
+# ASP.NET publicación
+App_Data/
+*.pubxml
+*.pubxml.user
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store

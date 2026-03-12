@@ -1,0 +1,168 @@
+/* ==========================================
+   BANCO SIMPLE - Estilos principales
+   ========================================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #eaf0fb;
+    padding: 30px 20px;
+    color: #2c3e50;
+}
+
+.container {
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #1a3a6b;
+}
+
+.header p {
+    color: #7f8c8d;
+    font-size: 0.95em;
+    margin-top: 4px;
+}
+
+/* Cards */
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+    margin-bottom: 16px;
+    color: #1a3a6b;
+    font-size: 1.1em;
+}
+
+/* Tarjeta de saldo */
+.saldo-card {
+    background: linear-gradient(135deg, #1a3a6b, #2e86c1);
+    color: white;
+    text-align: center;
+}
+
+.saldo-card h2 {
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.saldo-label {
+    font-size: 0.85em;
+    opacity: 0.85;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.saldo-monto span,
+.saldo-monto {
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Formulario */
+.form-group {
+    margin-bottom: 14px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.input-control {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cdd8e3;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #2c3e50;
+    transition: border-color 0.2s;
+}
+
+.input-control:focus {
+    outline: none;
+    border-color: #2e86c1;
+}
+
+/* Botón */
+.btn-primary {
+    background: #1a3a6b;
+    color: white;
+    border: none;
+    padding: 11px 28px;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 4px;
+}
+
+.btn-primary:hover {
+    background: #2e86c1;
+}
+
+/* Mensajes */
+.mensaje {
+    display: block;
+    margin-top: 12px;
+    font-size: 0.95em;
+    font-weight: 600;
+    min-height: 20px;
+}
+
+.exito { color: #1e8449; }
+.error { color: #c0392b; }
+
+/* Tabla */
+.tabla {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88em;
+}
+
+.tabla th {
+    background: #1a3a6b;
+    color: white;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.tabla td {
+    padding: 9px 12px;
+    border-bottom: 1px solid #ecf0f1;
+    color: #2c3e50;
+}
+
+.tabla tr:last-child td {
+    border-bottom: none;
+}
+
+.tabla tr:nth-child(even) td {
+    background: #f7f9fc;
+}
